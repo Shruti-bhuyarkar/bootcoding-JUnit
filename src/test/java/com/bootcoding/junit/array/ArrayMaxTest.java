@@ -3,7 +3,6 @@ package com.bootcoding.junit.array;
 import org.junit.Test;
 
 import static org.junit.Assert.*;
-
 public class ArrayMaxTest {
 @Test
     public void test(){
@@ -12,6 +11,5 @@ public class ArrayMaxTest {
         int actualNum = arrayMax.getMax(num);
         int expectedNum = 50;
         assertEquals(expectedNum,actualNum);
-
     }
 }
