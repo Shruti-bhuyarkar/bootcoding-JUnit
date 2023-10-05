@@ -1,9 +1,6 @@
 package com.bootcoding.junit.array;
-
 import org.junit.Test;
-
 import static org.junit.Assert.*;
-
 public class ArraySumTest {
     @Test
     public void test(){
@@ -13,6 +10,4 @@ public class ArraySumTest {
         int expectedSum = 15;
         assertEquals(expectedSum,actualSum);
     }
-
-
 }
