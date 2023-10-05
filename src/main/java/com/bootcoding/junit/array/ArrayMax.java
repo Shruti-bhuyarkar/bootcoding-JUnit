@@ -7,7 +7,6 @@ public class ArrayMax {
         for (i = 1; i < number.length; i++)
             if (number[i] > max)
                 max = number[i];
-
         return max;
     }
 }
